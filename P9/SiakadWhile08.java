@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SiakadWhile08 {
     public static void main(String[] args) {
         Scanner galuh08 = new Scanner(System.in);
@@ -16,7 +15,7 @@ public class SiakadWhile08 {
             }
 
             if (nilai08 > 80 && nilai08 <= 100) {
-                System.out.println("Nilai mahasiswa ke-" + (i08 + 1) + " adalah A");
+                System.out.println("Nilai mahasiswa ke-" + (i08 + 1) + " adalah A" + " (Bagus, pertahankan nilainya)");
             } else if (nilai08 > 73 && nilai08 <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i08 + 1) + " adalah B+");
             } else if (nilai08 > 65 && nilai08 <= 73) {
